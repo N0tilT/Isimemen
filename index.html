@@ -13,41 +13,43 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-        <div>
-            <img rel="Letter_I" src="images/Vector/Letter-I.svg">
-            <img rel="Letter_S" src="images/Vector/Letter-S.svg">
-            <img rel="Letter_I" src="images/Vector/Letter-I.svg">
-            <img rel="Letter_M" src="images/Vector/Letter-M.svg">
-            <img rel="Letter_E" src="images/Vector/Letter-E.svg">
-            <img rel="Letter_M" src="images/Vector/Letter-M.svg">
-            <img rel="Letter_E" src="images/Vector/Letter-E.svg">
-            <img rel="Letter_N" src="images/Vector/Letter-N.svg">
-        </div>
-    
-        <div>
-            <a rel="HOME" href="/">Home</a>
-            <a rel="ABOUT" href="/">About</a>
-            <a rel="WORK WITH US" href="/">Work with us</a>
-            <a rel="CLIENT WINS" href="/">Client wins</a>
-            <a rel="EMPLOYERS" href="/">Employers</a>
+    <header style="height: 85px;">
+        <div class="header-container">
+            <img class="logo" rel="logo" src="images/Pics/Logo.png">
+            
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Work with us</a></li>
+                    <li><a href="/">Client wins</a></li>
+                    <li><a href="/">Employers</a></li>
+                </ul>
+            </nav>
+
+            
         </div>
     </header>
-    
-    <img 
-        srcset="images/Pics/Header@2x.png 2x,
-                images/Pics/Header.png 1x"
-        src="images/Pics/Header.png"
-        rel="Header-img">
-    <div>
-        <p>Welcome to</p>
-        <p>your reset</p>
+
+    <div class="welcome">
+        <img 
+            srcset="images/Pics/Header@2x.png 2x,
+                    images/Pics/Header.png 1x"
+            src="images/Pics/Header.png"
+            rel="Header-img">
+        <div class="welcome-text">
+            <p>Welcome to</p>
+            <p>your reset</p>
+        </div>
     </div>
 
-    <p>We are a <h1>career development & business consultancy</h1> for women of color eager to elevate themselves, uncover their life’s purpose, multiply their income, and experience fulfilled lives.</p>
-
-    <a rel="discover-more" href="/">Discover more</a>
-
+    <div class="company-info">
+        <p>We are a career development & business consultancy for women of color eager to elevate themselves, uncover their life’s purpose, multiply their income, and experience fulfilled lives.</p>
+        
+        <a 
+            class="button-link"
+            rel="discover-more" href="/">Discover more</a>
+    </div>
     <h2>We provide purpose-building programs that blend faith, self, and wealth.</h2>
 
     <p>OUR PROGRAMS</p>
