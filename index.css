@@ -208,6 +208,10 @@ body{
     line-height: 53px;
 }
 
+.numbers{
+    margin-bottom: 120px;
+}
+
 .numbers-title{
     text-align: center;
     text-transform: uppercase;
@@ -244,4 +248,125 @@ body{
     font-size: 15px;
     line-height: 18px;
     text-align: center;
+}
+
+.motivation-wrapper {
+    background-color: #F3E9E2;
+    height: 208px;
+    text-overflow: clip;
+    margin-bottom: 120px;
+}
+.motivation-wrapper p{
+    margin-left: -200px;
+    font-size: 75px;
+    line-height: 208px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.resources{
+    margin-bottom: 120px;
+}
+
+.resources-title{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.resource-cards-wrapper{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.resource-card-quiz{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 318px;
+    background: #AEE8FB;
+    border-radius: 10px;    
+}
+.resource-card-quiz h4{
+    margin-left: 26px;
+    margin-top: 23px;
+    margin-bottom: 66px;
+    font-size: 58px;
+    line-height: 64px;
+}
+.resource-card-quiz p{
+    margin-left: 26px;
+    margin-right: 36px;
+    margin-bottom: 17px;
+    font-size: 15px;
+    line-height: 20px;  
+}
+.resource-card-quiz a{
+    margin: auto;
+    margin-right: 26px;
+    margin-bottom: 26px;
+}
+.resource-card-training{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 318px;
+    background: #F3E9E2;
+    color: #FF3B41;
+    border-radius: 10px;  
+}
+.resource-card-training h4{
+    margin-left: 26px;
+    margin-top: 23px;
+    margin-bottom: 66px;
+    font-size: 58px;
+    line-height: 64px;
+}
+.resource-card-training p{
+    margin-left: 26px;
+    margin-right: 36px;
+    margin-bottom: 17px;
+    font-size: 16px;
+    line-height: 20px;  
+}
+.resource-card-training a{
+    margin: auto;
+    margin-right: 26px;
+    margin-bottom: 26px;
+    color: #FF3B41;
+    border-color: #FF3B41;
+}
+.resource-card-salary{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 318px;
+    background: #FF3B41;
+    color: #F3E9E2;
+    border-radius: 10px;  
+}
+.resource-card-salary h4{
+    margin-left: 26px;
+    margin-top: 23px;
+    margin-bottom: 21px;
+    font-size: 58px;
+    line-height: 64px;
+}
+.resource-card-salary p{
+    margin-left: 26px;
+    margin-right: 36px;
+    margin-bottom: 17px;
+    font-size: 16px;
+    line-height: 20px;  
+}
+.resource-card-salary a{
+    margin: auto;
+    margin-right: 26px;
+    margin-bottom: 26px;
+    color: #F3E9E2;
+    border-color: #F3E9E2;
 }
